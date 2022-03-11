@@ -1,4 +1,4 @@
-# MetroPanels
+# [MetroPanels](https://github.com/ramtaruman/Window-Selects/tree/Metro-style)
 
 ## How it works
 
