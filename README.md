@@ -2,7 +2,7 @@
 
 
 ## About the Project
-#### Themed panels which can serve as navigatory landings or link trees.
+#### Themed metroesque panels which can serve as navigatory landings or link trees.
 
 ## How it works
 
