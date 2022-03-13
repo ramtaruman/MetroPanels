@@ -36,5 +36,5 @@ margin: 0.5px;
      .
      .
      .
-     nth <div class="panel"></div>
+nth  <div class="panel"></div>
 </div>
