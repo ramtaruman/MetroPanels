@@ -1,5 +1,9 @@
 # [MetroPanels](https://ramtaruman.github.io/MetroPanels)
 
+
+## About the Project
+#### Themed panels which can serve as navigatory landings or link trees.
+
 ## How it works
 
 #### Expands the panel on hover and contracts the remaining panels
@@ -38,3 +42,13 @@ margin: 0.5px;
      .
 nth  <div class="panel"></div>
 </div>
+```
+#### Customize themes by changing the panel backgrounds and text
+```HTML
+<div class="panel" style="background-image: url('link');">
+            <h3>Panel Title</h3>
+        </div>
+<div class="panel active" style="background-image: url('link');">
+            <h3>Panel Title</h3>
+        </div>
+```
