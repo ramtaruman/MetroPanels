@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,8 +12,8 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  font-family: "Major Mono Display", monospace;
-  background-color: rgb(27, 26, 26);
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(12, 12, 12);
   color: white;
 }
 
@@ -66,7 +67,10 @@ h3 {
   position: fixed;
   bottom: 0;
   right: 0;
+  font-family: "Major Mono Display", monospace;
+  background-color: black;
 }
 .cornertext.left {
   left: 0;
+  font-family: "Major Mono Display", monospace;
 }
