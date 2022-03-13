@@ -2,17 +2,13 @@
 
 ## How it works
 
-#### Expands the panel on hover
+#### Expands the panel on hover and contracts the remaining panels
 ```javascript
 panel.addEventListener('mouseenter',()=>
 {
         remove_active()
         panel.classList.add('active')
 }
-```
-
-#### Contracts the remaining panels
-```javascript
 function remove_active()
 {
     panels.forEach(panel=>
