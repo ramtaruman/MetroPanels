@@ -12,11 +12,14 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Major Mono Display", monospace;
+  background-color: grey;
+  color: white;
 }
 
 .container {
   display: flex;
   width: 50vw;
+  color: white;
   background-color: black;
 }
 .panel {
@@ -31,7 +34,7 @@ body {
   margin: 0.5px;
   position: relative;
   transition: flex 0.4s ease-in;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .panel:hover {
