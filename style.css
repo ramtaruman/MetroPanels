@@ -74,3 +74,9 @@ h3 {
   left: 0;
   font-family: "Major Mono Display", monospace;
 }
+
+.cornertext.up.cornertext.left {
+  top: 0;
+  left: 0;
+  font-family: "Major Mono Display", monospace;
+}
