@@ -75,8 +75,13 @@ h3 {
   font-family: "Major Mono Display", monospace;
 }
 
-.cornertext.up.cornertext.left {
+.cornertext.up.left {
   top: 0;
   left: 0;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Work Sans", sans-serif;
+}
+
+.giticon {
+  width: 35px;
+  height: 35px;
 }
