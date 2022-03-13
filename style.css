@@ -12,7 +12,7 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Major Mono Display", monospace;
-  background-color: grey;
+  background-color: rgb(27, 26, 26);
   color: white;
 }
 
