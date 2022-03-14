@@ -13,3 +13,9 @@ function remove_active(){
         panel.classList.remove('active')
     })
 }
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change',()=>{
+    document.body.classList.toogle('dark');
+})
