@@ -13,15 +13,15 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: rgb(12, 12, 12);
-  color: white;
-  transition: background 0.2s linear;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: background 0.4s linear;
 }
 
 .container {
   display: flex;
   width: 50vw;
-  color: white;
+  color: black;
   background-color: black;
 }
 .panel {
@@ -87,7 +87,8 @@ h3 {
   height: 35px;
 }
 body.dark {
-  background-color: black;
+  background-color: rgb(12, 11, 11);
+  color: black;
 }
 
 .checkbox {
@@ -125,4 +126,11 @@ body.dark {
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
+}
+.dark {
+  color: white;
+}
+
+.xray {
+  filter: invert(100%);
 }
