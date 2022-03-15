@@ -100,8 +100,8 @@ body.dark {
 
 .label {
   top: 2px;
-  right: 5px;
-  width: 38px;
+  right: 3px;
+  width: 30px;
   height: 15px;
   background-color: #111;
   display: flex;
@@ -114,18 +114,18 @@ body.dark {
 }
 
 .ball {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   background-color: white;
   position: absolute;
-  top: 3px;
-  left: 3px;
+  top: 1.5px;
+  left: 1px;
   border-radius: 100%;
   transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball {
-  transform: translateX(24px);
+  transform: translateX(15px);
 }
 .dark {
   color: white;
