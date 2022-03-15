@@ -13,14 +13,15 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: rgb(12, 12, 12);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: background 0.4s linear;
 }
 
 .container {
   display: flex;
   width: 50vw;
-  color: white;
+  color: black;
   background-color: black;
 }
 .panel {
@@ -84,4 +85,52 @@ h3 {
 .giticon {
   width: 35px;
   height: 35px;
+}
+body.dark {
+  background-color: rgb(12, 11, 11);
+  color: black;
+}
+
+.checkbox {
+  top: 0;
+  right: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  top: 2px;
+  right: 3px;
+  width: 30px;
+  height: 15px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: top right;
+  justify-content: space-between;
+  padding: 5px;
+  position: fixed;
+  transform: scale(1);
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  position: absolute;
+  top: 1.5px;
+  left: 1px;
+  border-radius: 100%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(15px);
+}
+.dark {
+  color: white;
+}
+
+.xray {
+  filter: invert(100%);
 }
