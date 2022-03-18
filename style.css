@@ -131,6 +131,14 @@ body.dark {
   color: white;
 }
 
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
 .xray {
   filter: invert(100%);
 }
